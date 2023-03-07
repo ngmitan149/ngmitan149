@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-07T07:02:22.652Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="HNiQwf1Eg_2zVAfUz3lQ" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-07T07:22:22.580Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="6VqV7RLB4jzoQ0ZMRRrK" version="21.0.2" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1434" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -34,12 +34,12 @@
             <mxPoint y="35" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="A8Iadc0OHZ_0-SeOrVLi-53" value="Generate JWT based on ERP API Key" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="A8Iadc0OHZ_0-SeOrVLi-24">
+        <mxCell id="A8Iadc0OHZ_0-SeOrVLi-53" value="Generate JWT based on ERP Secret Key" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="A8Iadc0OHZ_0-SeOrVLi-24">
           <mxGeometry x="-0.2948" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="A8Iadc0OHZ_0-SeOrVLi-54" value="Encrypte JWT to hash based on&lt;br&gt;ERP Secret key" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="A8Iadc0OHZ_0-SeOrVLi-24">
+        <mxCell id="A8Iadc0OHZ_0-SeOrVLi-54" value="Encrypte JWT to hash based on&lt;br&gt;ERP API key" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="A8Iadc0OHZ_0-SeOrVLi-24">
           <mxGeometry x="-0.1073" y="1" relative="1" as="geometry">
             <mxPoint y="13" as="offset" />
           </mxGeometry>
@@ -56,7 +56,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="A8Iadc0OHZ_0-SeOrVLi-57" value="Validate JWT token by API Key" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="A8Iadc0OHZ_0-SeOrVLi-56">
+        <mxCell id="A8Iadc0OHZ_0-SeOrVLi-57" value="Validate JWT token &lt;br&gt;by ERP Secret Key" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="A8Iadc0OHZ_0-SeOrVLi-56">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aM9ryv3xv72pqoxQDRHE-5" value="ERP cloud API&lt;br&gt;(Nextjs / api)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=50;" parent="1" vertex="1">
@@ -80,7 +80,7 @@
             <mxPoint y="15" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="A8Iadc0OHZ_0-SeOrVLi-30" value="- Decrypted the encrypted text &lt;br&gt;by ERP Secret Key" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="A8Iadc0OHZ_0-SeOrVLi-28">
+        <mxCell id="A8Iadc0OHZ_0-SeOrVLi-30" value="- Decrypted the encrypted text &lt;br&gt;by ERP&amp;nbsp;API key" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="A8Iadc0OHZ_0-SeOrVLi-28">
           <mxGeometry x="-0.3953" relative="1" as="geometry">
             <mxPoint y="10" as="offset" />
           </mxGeometry>
